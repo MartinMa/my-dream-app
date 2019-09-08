@@ -1,1 +1,5 @@
 <p>admin-dashboard works!</p>
+
+<div *ngIf="'AdminStuff' | can: 'manage'">
+  I can manage AdminStuff.
+</div>
